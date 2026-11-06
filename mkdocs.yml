@@ -1,0 +1,70 @@
+site_name: Mi Blog de Programación
+site_description: Blog de artículos sobre programación, DevOps y desarrollo web
+site_author: Tu Nombre
+site_url: https://tudominio.com
+
+theme:
+  name: material
+  language: es
+  icon:
+    logo: material/code-braces
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: es
+  - blog:
+      blog_dir: .
+      categories_file: null
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: pymdownx.emoji.twemoji
+      emoji_generator: pymdownx.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Backend:
+      - Python: backend/ejemplo-python.md
+  - Frontend:
+      - React: frontend/ejemplo-react.md
+  - DevOps:
+      - Docker: devops/ejemplo-docker.md
+  - Tutoriales:
+      - Plantilla: tutoriales/template.md
+  - Otro:
+      - Plantilla: otro/template.md
+
+copyright: Copyright &copy; 2024 Mi Blog de Programación
