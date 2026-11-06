@@ -1,7 +1,7 @@
-site_name: Mi Blog de Programación
+site_name: CousiBlog - Mi Blog de Programación
 site_description: Blog de artículos sobre programación, DevOps y desarrollo web
-site_author: Tu Nombre
-site_url: https://tudominio.com
+site_author: Cousi
+site_url: https://cousi.es/my-portfolio
 
 theme:
   name: material
@@ -53,15 +53,113 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - Backend:
-      - Python: backend/ejemplo-python.md
   - Frontend:
-      - React: frontend/ejemplo-react.md
+      - React: frontend/react/ejemplo-react.md
+      - React.js:
+          - React.js: frontend/reactjs/reactjs.md
+          - Componentes: frontend/reactjs/reactjs-components.md
+          - Hooks: frontend/reactjs/reactjs-hooks.md
+          - Reglas JSX: frontend/reactjs/reactjs-rules-jsx.md
+      - Angular: frontend/angular/angular.md
+      - CSS Selectores: frontend/css/css-selectors.md
+  - Backend:
+      - Python: backend/python/ejemplo-python.md
+      - .NET:
+          - .NET: backend/dotnet/dotnet.md
+          - Best Practices API: backend/dotnet/best-practices-api.md
+          - Bot Telegram: backend/dotnet/bot-telegram.md
+          - C# 12: backend/dotnet/csharp-12.md
+          - DateOnly y TimeOnly: backend/dotnet/dateonly-timeonly.md
+          - RESTful: backend/dotnet/restful.md
+      - Postman:
+          - Variables: backend/postman/postman-variables.md
+          - Workspaces: backend/postman/postman-workspaces.md
+  - Cloud:
+      - Azure:
+          - App Configuration: cloud/azure/app-configuration.md
+          - Azure Container Instances: cloud/azure/azure-container-instances.md
+          - Azure Container Registry: cloud/azure/azure-container-registry.md
+          - Azure Containers: cloud/azure/azure-containers.md
+          - Azure KeyVault: cloud/azure/azure-keyvault.md
+          - KQL: cloud/azure/kql.md
+          - Microsoft Entra: cloud/azure/microsoft-entra.md
+          - MSAL: cloud/azure/msal.md
+          - Rendimiento de Aplicación: cloud/azure/rendimiento-aplicacion.md
+      - Azure DevOps:
+          - Configuración: cloud/azure-devops/azure-devops-config.md
+          - Diagramas Mermaid: cloud/azure-devops/mermaid-diagrams.md
+          - CLI: cloud/azure-devops/install.md
+  - IA:
+      - Análisis de Imágenes: ia/analisis-de-imagenes.md
+      - Clasificación de Imágenes: ia/clasificacion-de-imagenes.md
+      - Creación y Consumo de Servicios Azure AI: ia/creacion-consumo-servicios-azure-ai.md
+      - Implementar Servicios Azure AI en Contenedores: ia/implementar-servicios-azure-ai-contenedores.md
+      - Prepararse para Desarrollar Soluciones IA en Azure: ia/prepare-to-develop-ai-solutions-azure.md
+      - Protección de Servicios Azure AI: ia/proteccion-servicios-azure-ai.md
+      - Supervisión de Servicios Azure AI: ia/supervision-servicios-azure-ai.md
+      - Uso Responsable y Seguridad de Contenido: ia/uso-responsable-seguridad-contenido.md
   - DevOps:
-      - Docker: devops/ejemplo-docker.md
-  - Tutoriales:
-      - Plantilla: tutoriales/template.md
-  - Otro:
-      - Plantilla: otro/template.md
+      - Docker: devops/docker/ejemplo-docker.md
+      - Infraestructura y Soluciones:
+          - Infraestructura como Código: devops/infraestructura/implementando-infraestructura-como-codigo.md
+          - Testing Continuo: devops/infraestructura/integrando-testing-continuo.md
+          - Base de Datos en DevOps: devops/infraestructura/tratando-con-base-de-datos-devops.md
+      - Git y GitHub:
+          - Git: devops/git-github/git.md
+          - GitHub CLI:
+              - Alias: devops/git-github/github-alias.md
+              - Autenticación: devops/git-github/github-auth.md
+              - Browse: devops/git-github/github-browse.md
+              - Cache: devops/git-github/github-cache.md
+              - Configuración: devops/git-github/github-config.md
+              - Instalación: devops/git-github/github-installation.md
+              - Ruleset: devops/git-github/github-ruleset.md
+              - Secretos: devops/git-github/github-secret.md
+              - Estado: devops/git-github/github-status.md
+              - Estudio: devops/git-github/github-study.md
+          - GitHub Foundations:
+              - Acciones: devops/git-github/actions.md
+              - Administración: devops/git-github/admin.md
+              - Archivar: devops/git-github/archivar.md
+              - Autenticación: devops/git-github/authentication.md
+              - Búsqueda: devops/git-github/busqueda.md
+              - Codespaces: devops/git-github/codespaces.md
+              - Código Abierto: devops/git-github/codigo-abierto.md
+              - Copilot: devops/git-github/copilot.md
+              - Customización: devops/git-github/customization.md
+              - Examen de Código: devops/git-github/examen-codigo.md
+              - Gists: devops/git-github/gists.md
+              - GitHub Projects: devops/git-github/github-projects.md
+              - Hitos: devops/git-github/hitos.md
+              - InnerSource: devops/git-github/innersource.md
+              - Introducción a Copilot: devops/git-github/intro-copilot.md
+              - Introducción a Git: devops/git-github/intro-git.md
+              - Introducción a GitHub: devops/git-github/intro-github.md
+              - Jobs: devops/git-github/jobs.md
+              - Lifecycle de Codespace: devops/git-github/lifecycle-codespace.md
+              - Mantenimiento de Repositorio: devops/git-github/mantenimiento-repositorio.md
+              - Markdown: devops/git-github/markdown.md
+              - Pages: devops/git-github/pages.md
+              - Planes: devops/git-github/planes.md
+              - Productos: devops/git-github/productos.md
+              - Projects: devops/git-github/projects.md
+              - Pull Request: devops/git-github/pull-request.md
+              - Pulse: devops/git-github/pulse.md
+              - Roles: devops/git-github/roles.md
+              - Slash Commands: devops/git-github/slash-command.md
+              - Sponsors: devops/git-github/sponsors.md
+              - Visibilidad: devops/git-github/visibility.md
+              - Wikis: devops/git-github/wikis.md
+          - GitHub Deploy: devops/git-github/github-deploy.md
+  - Referencia y Herramientas:
+      - Markdown: referencia/markdown/markdown.md
+      - YAML: referencia/yaml/yaml.md
+      - VS Code: referencia/vscode/extensiones-vscode.md
+      - Winget:
+          - Configuración: referencia/winget/winget-configure.md
+          - Exportar: referencia/winget/winget-export.md
+          - Instalación: referencia/winget/winget-install.md
+          - Mostrar: referencia/winget/winget-show.md
+      - Hábitos: referencia/habits/the-coder-habits.md
 
 copyright: Copyright &copy; 2024 Mi Blog de Programación

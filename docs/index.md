@@ -9,17 +9,17 @@ Este blog está organizado en categorías para que encuentres fácilmente lo que
 ### 🔙 Backend
 Artículos sobre arquitectura de sistemas, APIs, bases de datos y desarrollo del servidor.
 
-- [Introducción a Python para Backend](backend/ejemplo-python.md)
+- [Introducción a Python para Backend](backend/python/ejemplo-python.md)
 
 ### 🎨 Frontend
 Tutoriales y tips sobre desarrollo frontend, frameworks y mejores prácticas.
 
-- [React: Hooks y State Management](frontend/ejemplo-react.md)
+- [React: Hooks y State Management](frontend/react/ejemplo-react.md)
 
 ### ⚙️ DevOps
 Guías sobre containerización, CI/CD, infraestructura y deployment.
 
-- [Docker: Containerización para Principiantes](devops/ejemplo-docker.md)
+- [Docker: Containerización para Principiantes](devops/docker/ejemplo-docker.md)
 
 ### 📖 Tutoriales
 Tutoriales paso a paso sobre diferentes tecnologías y técnicas.
@@ -46,7 +46,7 @@ Este blog es completamente estático y está generado con [MKDocs](https://www.m
 
 ## 🤝 Contribuir
 
-¿Tienes ideas de artículos? Consulta la [GUIA.md](GUIA.md) para saber cómo añadir nuevos artículos.
+¿Tienes ideas de artículos? Consulta la guía en el repositorio para saber cómo añadir nuevos artículos.
 
 ---
 
