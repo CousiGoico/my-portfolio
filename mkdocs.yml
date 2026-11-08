@@ -94,6 +94,7 @@ nav:
       - Clasificación de Imágenes: ia/clasificacion-de-imagenes.md
       - Creación y Consumo de Servicios Azure AI: ia/creacion-consumo-servicios-azure-ai.md
       - Implementar Servicios Azure AI en Contenedores: ia/implementar-servicios-azure-ai-contenedores.md
+      - ODD con IA: ia/odd.md
       - Prepararse para Desarrollar Soluciones IA en Azure: ia/prepare-to-develop-ai-solutions-azure.md
       - Protección de Servicios Azure AI: ia/proteccion-servicios-azure-ai.md
       - SDD con IA: ia/sdd.md
