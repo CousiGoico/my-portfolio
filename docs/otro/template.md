@@ -40,3 +40,14 @@ Cierra con un resumen del artículo.
 **Para más información:**
 - Link 1
 - Link 2
+
+## Referencias
+
+- [Referencia 1](URL_AQUI)
+- [Referencia 2](URL_AQUI)
+
+## Etiquetas
+
+- #IA
+- #Etiqueta 1
+- #Etiqueta 2

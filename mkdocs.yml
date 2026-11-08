@@ -96,6 +96,7 @@ nav:
       - Implementar Servicios Azure AI en Contenedores: ia/implementar-servicios-azure-ai-contenedores.md
       - Prepararse para Desarrollar Soluciones IA en Azure: ia/prepare-to-develop-ai-solutions-azure.md
       - Protección de Servicios Azure AI: ia/proteccion-servicios-azure-ai.md
+      - SDD con IA: ia/sdd.md
       - Supervisión de Servicios Azure AI: ia/supervision-servicios-azure-ai.md
       - Uso Responsable y Seguridad de Contenido: ia/uso-responsable-seguridad-contenido.md
   - DevOps:
