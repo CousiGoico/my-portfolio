@@ -52,7 +52,6 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Inicio: index.md
   - Frontend:
       - React: frontend/react/ejemplo-react.md
       - React.js:
