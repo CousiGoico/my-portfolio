@@ -163,5 +163,7 @@ nav:
           - Instalación: referencia/winget/winget-install.md
           - Mostrar: referencia/winget/winget-show.md
       - Hábitos: referencia/habits/the-coder-habits.md
+  - Otros:
+      - Conceptos Técnicos: otro/conceptos-tecnicos.md
 
 copyright: Copyright &copy; 2024 Mi Blog de Programación

@@ -25,10 +25,10 @@ Ventajas:
 - Interfaz de usuario dedicada para la administración de marcas de características.
 - Comparación de dos conjuntos de configuraciones en dimensiones definidas de forma personalizada.
 - Seguridad mejorada mediante las identidades administradas de Azure.
-- Cifrado de información confidencial en reposo y en tránsito.
+- [Cifrado](../../../otro/conceptos-tecnicos.md#firewall) de información confidencial en reposo y en tránsito.
 - Integración nativa con plataformas conocidas.
 
-**App Configuration complementa Azure Key Vault, que se usa para almacenar secretos de aplicación.**
+**App Configuration complementa [Azure Key Vault](azure-keyvault.md), que se usa para almacenar secretos de aplicación.**
 
 Implementaciones:
 

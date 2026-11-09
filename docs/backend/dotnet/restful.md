@@ -11,9 +11,9 @@ tags:
 description: "Verbos HTTP Usa correctamente cada uno de los verbos HTTP. GET: solicitud de recursos. POST: creación de nuevos recursos. PUT: actualización de recursos en su totalidad. PATCH: actualiza parcialmente un recurso. DELETE: elimina un recurso. HEAD: consulta los metadatos de un recurso. CONNECT: consulta la conectividad. OPTIONS: consulta las opciones de una URL. TRACE: realize un tests de conexión con el recurso. Códigos HTTP 1XX: respuestas informativas. 2XX: peticiones correctas. 3XX: redirecciones. 4XX: errores de cliente. 5XX: errores de servidor. Versionado del servicio Es importante mantener un versionado de tu API, de tal manera, que tenga las siguientes cualidades:"
 ---
 
-## Verbos HTTP
+## Verbos [HTTP](../../otro/conceptos-tecnicos.md#http-protocolo-de-transferencia-de-hipertexto)
 
-Usa correctamente cada uno de los verbos HTTP.
+Usa correctamente cada uno de los verbos [HTTP](../../otro/conceptos-tecnicos.md#http-protocolo-de-transferencia-de-hipertexto).
 
 - GET: solicitud de recursos.
 - POST: creación de nuevos recursos.
@@ -25,7 +25,7 @@ Usa correctamente cada uno de los verbos HTTP.
 - OPTIONS: consulta las opciones de una URL.
 - TRACE: realize un tests de conexión con el recurso.
 
-## Códigos HTTP
+## Códigos [HTTP](../../otro/conceptos-tecnicos.md#http-protocolo-de-transferencia-de-hipertexto)
 
 - 1XX: respuestas informativas.
 - 2XX: peticiones correctas.
@@ -33,9 +33,9 @@ Usa correctamente cada uno de los verbos HTTP.
 - 4XX: errores de cliente.
 - 5XX: errores de servidor.
 
-## Versionado del servicio
+## Versionado del servicio ([API](../../otro/conceptos-tecnicos.md#api-interfaz-de-programación-de-aplicaciones))
 
-Es importante mantener un versionado de tu API, de tal manera, que tenga las siguientes cualidades:
+Es importante mantener un versionado de tu [API](../../otro/conceptos-tecnicos.md#api-interfaz-de-programación-de-aplicaciones), de tal manera, que tenga las siguientes cualidades:
 
 - Retrocompatibilidad: de esta manera, alguien que este usando una versión antigua de tu API no se le rompera.
 - Evolución y desarrollo: permite que el equipo de desarrollo avance o evolucione la API sin tener que modificar algo existente.

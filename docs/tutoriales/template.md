@@ -50,5 +50,12 @@ Resume los puntos clave del artículo.
 ---
 
 **Recursos relacionados:**
+
 - [Enlace 1](https://ejemplo.com)
 - [Enlace 2](https://ejemplo.com)
+
+## Tags
+
+- #Tutorial
+- #Etiqueta 1
+- #Etiqueta 2

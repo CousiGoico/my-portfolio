@@ -59,7 +59,7 @@ Es una biblioteca de JavaScript para construir interfaces de usuario, creada por
     root.render(div);
    ```
 
-### JSX
+### [JSX](../../otro/conceptos-tecnicos.md#jsx)
 
 Es una extensión de EcmaScript basada en XML que nos va a permitir crear nuestros elementos de una manera más declarativa.
 
@@ -75,7 +75,7 @@ Es una extensión de EcmaScript basada en XML que nos va a permitir crear nuestr
 
 Es un transpilador de JavaScript
 
-### Componentes
+### [Componentes](../../otro/conceptos-tecnicos.md#componente-react)
 
 Función que permite renderizar un elemento y que también permite reutilizarlo.
 

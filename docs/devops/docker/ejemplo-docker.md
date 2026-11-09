@@ -10,7 +10,7 @@ Aprende cómo containerizar tus aplicaciones con Docker y simplifica el deployme
 
 ## ¿Qué es Docker?
 
-Docker es una plataforma que permite empaquetar tus aplicaciones en contenedores independientes. Estos contenedores incluyen todo lo necesario: código, dependencias, y configuración.
+[Docker](../../otro/conceptos-tecnicos.md#docker) es una plataforma que permite empaquetar tus aplicaciones en [contenedores](../../otro/conceptos-tecnicos.md#container-contenedor) independientes. Estos contenedores incluyen todo lo necesario: código, dependencias, y configuración.
 
 ### Ventajas de Docker
 
@@ -22,13 +22,13 @@ Docker es una plataforma que permite empaquetar tus aplicaciones en contenedores
 ## Conceptos básicos
 
 ### Imágenes
-Una imagen es una plantilla que define cómo debe ser tu contenedor.
+Una imagen es una plantilla que define cómo debe ser tu [contenedor](../../otro/conceptos-tecnicos.md#container-contenedor).
 
 ### Contenedores
-Un contenedor es una instancia en ejecución de una imagen.
+Un [contenedor](../../otro/conceptos-tecnicos.md#container-contenedor) es una instancia en ejecución de una imagen.
 
 ### Registros
-Repositorios centralizados de imágenes (Docker Hub, GitHub Container Registry).
+Repositorios centralizados de imágenes ([Container Registry](../../otro/conceptos-tecnicos.md#container-registry), [Docker Hub](../../otro/conceptos-tecnicos.md#docker), GitHub Container Registry).
 
 ## Tu primer Dockerfile
 
