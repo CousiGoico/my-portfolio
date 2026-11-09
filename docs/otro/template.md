@@ -46,7 +46,7 @@ Cierra con un resumen del artículo.
 - [Referencia 1](URL_AQUI)
 - [Referencia 2](URL_AQUI)
 
-## Etiquetas
+## Tags
 
 - #IA
 - #Etiqueta 1
