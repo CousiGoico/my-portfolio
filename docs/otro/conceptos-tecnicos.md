@@ -231,6 +231,9 @@ Aplicación que facilita desarrollo y prueba de APIs. Permite crear solicitudes 
 ### PowerShell
 Shell y lenguaje de scripting orientado a objetos de Microsoft. Permite automatizar tareas administrativas y gestión de sistemas. Versión moderna: PowerShell Core (multiplataforma).
 
+### Private Endpoint
+Interfaz de red en Azure que proporciona conectividad privada y segura a servicios de Azure (Storage, SQL Database, Cosmos DB, etc.). Permite acceder a servicios de Azure desde una VNet sin exponerlos a internet público. Ofrece seguridad mejorada y cumplimiento normativo.
+
 ### Protocolo
 Conjunto de reglas y estándares que definen cómo se comunican sistemas. Ejemplos: HTTP, HTTPS, TCP/IP, SMTP. Aseguran que diferentes sistemas puedan entenderse.
 

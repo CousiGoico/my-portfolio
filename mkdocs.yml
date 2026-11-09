@@ -84,6 +84,7 @@ nav:
           - KQL: cloud/azure/kql.md
           - Microsoft Entra: cloud/azure/microsoft-entra.md
           - MSAL: cloud/azure/msal.md
+          - Private Endpoint: cloud/azure/private-endpoint.md
           - Rendimiento de Aplicación: cloud/azure/rendimiento-aplicacion.md
       - Azure DevOps:
           - Configuración: cloud/azure-devops/azure-devops-config.md
