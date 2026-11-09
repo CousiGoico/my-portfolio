@@ -52,6 +52,7 @@ markdown_extensions:
       permalink: true
 
 nav:
+  - Mi Blog de Programación: index.md
   - Frontend:
       - React: frontend/react/ejemplo-react.md
       - React.js:
